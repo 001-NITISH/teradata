@@ -1,54 +1,11 @@
-INSERT INTO countries (country_id, country_name, region_id) VALUES
-('AR', 'Argentina', 2),
-('AU', 'Australia', 3),
-('BE', 'Belgium', 1),
-('BR', 'Brazil', 2),
-('CA', 'Canada', 2),
-('CH', 'Switzerland', 1),
-('CN', 'China', 3),
-('DE', 'Germany', 1),
-('DK', 'Denmark', 1),
-('EG', 'Egypt', 4),
-('FR', 'France', 1),
-('HK', 'HongKong', 3),
-('IL', 'Israel', 4),
-('IN', 'India', 3),
-('IT', 'Italy', 1),
-('JP', 'Japan', 3),
-('KW', 'Kuwait', 4),
-('MX', 'Mexico', 2),
-('NG', 'Nigeria', 4),
-('NL', 'Netherlands', 1),
-('SG', 'Singapore', 3),
-('UK', 'United Kingdom', 1),
-('US', 'United States', 2),
-('ZM', 'Zambia', 4),
-('ZW', 'Zimbabwe', 4);
-
-
-
-
-INSERT INTO locations (location_id, street_address, postal_code, city, state_province, country_id) VALUES
-(1000, '1297 Via Cola di Rie', '989', 'Roma', NULL, 'IT'),
-(1100, '93091 Calle della Te', '10934', 'Venice', NULL, 'IT'),
-(1200, '2017 Shinjuku-ku', '1689', 'Tokyo', 'Tokyo Prefecture', 'JP'),
-(1300, '9450 Kamiya-cho', '6823', 'Hiroshima', NULL, 'JP'),
-(1400, '2014 Jabberwocky Rd', '26192', 'Southlake', 'Texas', 'US'),
-(1500, '2011 Interiors Blvd', '99236', 'South San', 'California', 'US'),
-(1600, '2007 Zagora St', '50090', 'South Brun', 'New Jersey', 'US'),
-(1700, '2004 Charade Rd', '98199', 'Seattle', 'Washington', 'US'),
-(1800, '147 Spadina Ave', 'M5V 2L7', 'Toronto', 'Ontario', 'CA'),
-(1900, '6092 Boxwood St', 'YSW 9T2', 'Whitehorse', 'Yukon', 'CA'),
-(2000, '40-5-12 Laogianggen', '190518', 'Beijing', NULL, 'CN'),
-(2100, '1298 Vileparle (E)', '490231', 'Bombay', 'Maharashtra', 'IN'),
-(2200, '12-98 Victoria Stree', '2901', 'Sydney', 'New South Wales', 'AU'),
-(2300, '198 Clementi North', '540198', 'Singapore', NULL, 'SG'),
-(2400, '8204 Arthur St', NULL, 'London', NULL, 'UK'),
-(2500, 'Magdalen Centre, The', 'OX9 9ZB', 'Oxford', 'Oxford', 'UK'),
-(2600, '9702 Chester Road', '9629850293', 'Stretford', 'Manchester', 'UK'),
-(2700, 'Schwanthalerstr. 703', '80925', 'Munich', 'Bavaria', 'DE'),
-(2800, 'Rua Frei Caneca 1360', '01307-002', 'Sao Paulo', 'Sao Paulo', 'BR'),
-(2900, '20 Rue des Corps-Sai', '1730', 'Geneva', 'Geneve', 'CH'),
-(3000, 'Murtenstrasse 921', '3095', 'Bern', 'BE', 'CH'),
-(3100, 'Pieter Breughelstraa', '3029SK', 'Utrecht', 'Utrecht', 'NL'),
-(3200, 'Mariano Escobedo 999', '11932', 'Mexico Cit', 'Distrito Federal', 'MX');
+first_name,middle_name,last_name,ssn(9),credit_cardno,street_name,apt_no,cust_city,cust_state,cust_country,cust_zip,cust_phone,cust_email
+Gary,Jason,White,530337061,3079775378172221,James Loop,64260,Carriebury,WV,Bosnia and Herzegovina,87684,778-581-0459,heatherjoseph@example.com
+Autumn,Jessica,Combs,456573564,6692094527084232,Sierra Hill,484,Shelbymouth,DC,Greenland,96079,(908)434-7636x08993,loretta78@example.com
+Daniel,Becky,Coleman,924243918,1359407264950506,Pierce Forks,10074,West Janiceborough,WI,Jordan,99690,+1-663-916-9808x7929,rconway@example.net
+Danielle,Elizabeth,Evans,096092467,8856700850008570,Sanchez Alley,2316,Matthewberg,PR,Panama,33855,001-987-276-6196x3087,marcusriley@example.org
+Michael,Jessica,Miller,846449442,0478579594874806,Erika Inlet,6790,Lake Christine,PR,Gibraltar,05470,3114514875,emmacummings@example.com
+Michael,Sandra,Henderson,864792867,6985256528668438,Wendy Club,56802,Henryville,GU,Bhutan,19726,989.900.3909x320,deanbrenda@example.org
+Erin,Robert,Madden,861302793,0417180286827061,Nicole Passage,76778,Lake Sharonborough,IN,Mongolia,62501,(850)377-2512x915,twhitehead@example.com
+Cynthia,Carrie,Wilkins,507195453,1189202575023017,Liu Drive,130,North Dana,OK,Malta,27903,4599990802,jenningsemily@example.com
+Justin,Steven,Snyder,711284795,0855676855550583,Roberts Island,81033,South Monicaport,MD,Philippines,76950,+1-620-931-7919,ronniemorrison@example.org
+Carl,Isaiah,Alexander,447678322,6453180205595115,Pena Drives,503,Calderonburgh,ID,Tuvalu,52972,377-582-3325x84276,hross@example.org
